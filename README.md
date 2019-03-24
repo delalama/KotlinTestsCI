@@ -1,5 +1,5 @@
 # KotlinTestsCI
-### H3 Spring project with gradle and kotlin , managed by CI client TeamCity
+### Spring project with gradle and kotlin , managed by CI client TeamCity
 
 This small project consists in a simple calculator functions implemented in kotlin it prints a table with ten operations of the common (+,-,x,/) arithmetic operations.
 
@@ -11,15 +11,15 @@ TeamCity is a CI product of JetBrains and in this setup i've configured only to 
 
 The idea is that the configuration of this project in TeamCity is listening to the origin repo and when it detects new changes it does an automatic build to make sure that we haven't broken the project.
 
-## H1 Overview of TC 
+## Overview of TC 
 ![alt text](https://github.com/delalama/KotlinTestsCI/blob/master/pics/1%20-%20TeamCity.png "TC project build overview")
 
-## H1 Small change on our project
+## Small change on our project
 ![alt text](https://github.com/delalama/KotlinTestsCI/blob/master/pics/2%20-%20Force%20VCS%20trigger.png "Small change")
 
-## H1 Push changes
+## Push changes
 ![alt text](https://github.com/delalama/KotlinTestsCI/blob/master/pics/3%20-%20Git%20push.png "Git push")
 
-## H1 See TC automatic response to the change
+## See TC automatic response to the change
 ![alt text](https://github.com/delalama/KotlinTestsCI/blob/master/pics/4%20-%20TC%20auto%20build.png "TC working")
 
